@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Upcoming Events"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textTitle"/>
+
+    <Button
+        android:id="@+id/event1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:layout_marginTop="20dp"
+        android:text="Help Sisters with Testing     Sun     3:00 PM"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        />
+
+    <Button
+        android:id="@+id/event2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/event1"
+        android:layout_marginTop="0dp"
+        android:text="Music Lessons                              Sun     6:00 PM"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        />
+
+    <Button
+        android:id="@+id/event3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/event2"
+        android:layout_marginTop="0dp"
+        android:text="Shopping with Mom                   Sun     8:00 PM"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        />
+
+    <Button
+        android:id="@+id/event4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/event3"
+        android:layout_marginTop="0dp"
+        android:text="Sneak Out                                       Sun     10:00 PM"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GroupPageFunctions">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Add New Group -->
+            <Button
+                android:id="@+id/AddGroup"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Add New Group"
+                android:background="#888888"
+                android:textSize="12dp"
+
+                />
+
+            <!-- GROUP 1 -->
+            <TextView
+                android:id="@+id/Title1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:text="Group 1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="#888888"
+                android:layout_below="@id/AddGroup"
+                />
+
+            <Button
+                android:id="@+id/VM1"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="View Member"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@id/Title1"/>
+
+            <Button
+                android:id="@+id/IM1"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="Invite Member"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@id/VM1"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@+id/IM1"
+                android:layout_marginTop="0dp"
+                android:id="@+id/btnNavGrpSch"
+                android:text="View Group Schedule"/>
+
+            <Button
+                android:id="@+id/LG1"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="Leave Group"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@id/btnNavGrpSch"/>
+
+            <Button
+                android:id="@+id/DG1"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="Delete Group"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@id/LG1"/>
+
+            <!-- GROUP 2 -->
+            <TextView
+                android:id="@+id/Title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="15dp"
+                android:text="Group 2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="#888888"
+                android:layout_below="@+id/DG1"
+                />
+
+            <Button
+                android:id="@+id/VM2"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="View Member"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@id/Title2"/>
+
+            <Button
+                android:id="@+id/IM2"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="Invite Member"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@id/VM2"/>
+
+            <Button
+                android:id="@+id/VGS2"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="View Group Schedule"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@id/IM2"/>
+
+            <Button
+                android:id="@+id/LG2"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="Leave Group"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@id/VGS2"/>
+
+            <Button
+                android:id="@+id/DG2"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="Delete Group"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@id/LG2"/>
+
+            <!-- GROUP 3 -->
+
+            <TextView
+                android:id="@+id/Title3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="15dp"
+                android:text="Group 3"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="#888888"
+                android:layout_below="@+id/DG2"
+
+                />
+
+            <Button
+                android:id="@+id/VM3"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="View Member"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@id/Title3"/>
+
+            <Button
+                android:id="@+id/IM3"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="Invite Member"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@id/VM3"/>
+
+            <Button
+                android:id="@+id/VGS3"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="View Group Schedule"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@id/IM3"/>
+
+            <Button
+                android:id="@+id/LG3"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="Leave Group"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@id/VGS3"/>
+
+            <Button
+                android:id="@+id/DG3"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:text="Delete Group"
+                android:background="#00ffffff"
+                android:textSize="8dp"
+                android:layout_below="@id/LG3"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

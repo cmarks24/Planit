@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="The Rookies :"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/num2"
+        android:orderInCategory="101"
+        android:title="Christian Marks"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/num3"
+        android:orderInCategory="102"
+        android:title="Derek Ellis"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/num4"
+        android:orderInCategory="103"
+        android:title="Jeremy Radford"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/num5"
+        android:orderInCategory="104"
+        android:title="Christopher Willingham"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/num6"
+        android:orderInCategory="105"
+        android:title="Khoa Huynh"
+        app:showAsAction="never" />
+</menu>

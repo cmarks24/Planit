@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Plan-It! App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Johnny Test</string>
+    <string name="nav_header_subtitle">Username: MrTest</string>
+    <string name="nav_header_desc">User</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_group_schedule">GroupSchedule</string>
+    <string name="midnight">12am ------------------------------------------------</string>
+    <string name="one_am">1am ---------------------------------------------------</string>
+    <string name="two_am">2am ---------------------------------------------------</string>
+    <string name="three_am">3am ---------------------------------------------------</string>
+    <string name="four_am">4am ---------------------------------------------------</string>
+    <string name="five_am">5am ---------------------------------------------------</string>
+    <string name="six_am">6am ---------------------------------------------------</string>
+    <string name="seven_am">7am ---------------------------------------------------</string>
+    <string name="eight_am">8am ---------------------------------------------------</string>
+    <string name="nine_am">9am ---------------------------------------------------</string>
+    <string name="ten_am">10am -------------------------------------------------</string>
+    <string name="eleven_am">11am -------------------------------------------------</string>
+    <string name="noon">12pm -------------------------------------------------</string>
+    <string name="one_pm">1pm ---------------------------------------------------</string>
+    <string name="two_pm">2pm ---------------------------------------------------</string>
+    <string name="three_pm">3pm ---------------------------------------------------</string>
+    <string name="four_pm">4pm ---------------------------------------------------</string>
+    <string name="five_pm">5pm ---------------------------------------------------</string>
+    <string name="six_pm">6pm ---------------------------------------------------</string>
+    <string name="seven_pm">7pm ---------------------------------------------------</string>
+    <string name="eight_pm">8pm ---------------------------------------------------</string>
+    <string name="nine_pm">9pm ---------------------------------------------------</string>
+    <string name="ten_pm">10pm -------------------------------------------------</string>
+    <string name="eleven_pm">11pm -------------------------------------------------</string>
+    <string name="twelve_am">12am -------------------------------------------------</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Account Info"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textTitle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textTitle"
+        android:id="@+id/textYourName"
+        android:layout_marginTop="50dp"
+        android:text="Your Name: Johnny Test"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textYourName"
+        android:id="@+id/textUsername"
+        android:layout_marginTop="10dp"
+        android:text="Username: MrTest"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textUsername"
+        android:id="@+id/textPhone"
+        android:layout_marginTop="10dp"
+        android:text="Phone Number: (123) 456-7890"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textPhone"
+        android:id="@+id/textEmail"
+        android:layout_marginTop="10dp"
+        android:text="Email: Test.email@test.com"
+        android:textSize="20dp"/>
+
+
+
+
+</RelativeLayout>
